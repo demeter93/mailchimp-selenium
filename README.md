@@ -6,6 +6,6 @@ The script may be run directly in Selenium IDE. If you have Selenium Webdriver c
 2. Restart Firefox.
 3. Open Selenium IDE. From the "Options" dropdown, select "Options".
 4. Select the "FileLogging" tab.
-5. Create a blank CSV file and place it in your desired directory. In the FilLogging tab, select the this file as the file logging location.
+5. Create a blank CSV file and place it in your desired directory. In the FileLogging tab, select the this file as the file logging location.
 6. From the "File Logging Level" dropdown, select "Info".
 7. Select "OK", and then run the script.
