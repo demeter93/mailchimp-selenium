@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://mailchimp.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!-- Navigate to About page -->
+<tr>
+	<td>open</td>
+	<td>/about/</td>
+	<td></td>
+</tr>
+<!-- Open first employee's profile -->
+<tr>
+	<td>click</td>
+	<td>css=h3.mb1</td>
+	<td></td>
+</tr>
+<!-- Store text of employee's name -->
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name1_1</td>
+</tr>
+<!-- Store text of employee's job title -->
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title1_1</td>
+</tr>
+<!-- Store text of employee's bio title -->
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio1_1</td>
+</tr>
+<!-- Close employee profile -->
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<!-- Repeat opening and saving info for all subsequent employee profiles -->
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[2]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name1_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title1_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio1_2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[3]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name1_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title1_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio1_3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[4]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name1_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title1_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio1_4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[5]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name2_1</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title2_1</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio2_1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[6]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name2_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title2_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio2_2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[7]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name2_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title2_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio2_3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[8]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name2_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title2_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio2_4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[9]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name3_1</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title3_1</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio3_1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[10]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name3_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title3_2</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio3_2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[11]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name3_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title3_3</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio3_3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//html[@id='page-about']/body/article/div/section[3]/div[2]/div[12]/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/h3</td>
+	<td>Name3_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='bio_view']/div/div[2]/div[2]/span</td>
+	<td>Title3_4</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=p.mt6</td>
+	<td>Bio3_4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.close_btn.icon-close-large</td>
+	<td></td>
+</tr>
+<!-- Print text that was stored in the above portion of the script -->
+<tr>
+	<td>echo</td>
+	<td>${Name1_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title1_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio1_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name1_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title1_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio1_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name1_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title1_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio1_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name1_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title1_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio1_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name2_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title2_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio2_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name2_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title2_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio2_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name2_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title2_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio2_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name2_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title2_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio2_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name3_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title3_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio3_1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name3_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title3_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio3_2}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name3_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title3_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio3_3}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Name3_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Title3_4}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${Bio3_4}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
